@@ -14,3 +14,19 @@ var rob = function(nums) {
 
     return maxAmount.pop();
 };
+
+// O(1) space, O(N) time
+var rob = function(nums) {
+    if (nums.length === 0) return 0;
+    var prevMax = 0;
+    // the currMax is the money the robber has robbed when the robber arrives at ith house,
+    // the robber has not robber the ith house yet.
+    var currMax = nums[0];
+    for (var i = 2; i <= nums.length; i++) {
+        var tmp = currMax;
+        currMax = Math.max(currMax, (prevMax + nums[i-1]));
+        prevMax = tmp;
+    }
+
+    return currMax;
+};
