@@ -6,6 +6,7 @@
  * }
  */
 /**
+ * very fast 111ms
  * @param {TreeNode} root
  * @return {number}
  */
