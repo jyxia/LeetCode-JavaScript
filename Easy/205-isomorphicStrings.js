@@ -7,7 +7,7 @@
  * 1. check if t[i] is in the map. If yes, find out the key associated with t[i]
  * if key exists, but s[i] is not equal to key, return false;
  * if key is null, but s[i] exists in the map and map[s[i]] is not equal to t[i]
- * return false. 
+ * return false.
  *
  * @param {string} s
  * @param {string} t
@@ -33,7 +33,7 @@ var isIsomorphic = function(s, t) {
 Object.prototype.getKeyByValue = function(value) {
   for (var prop in this) {
       if (this.hasOwnProperty(prop)) {
-          if( this[prop] === value )
+          if (this[prop] === value)
               return prop;
       }
   }

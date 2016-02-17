@@ -6,7 +6,7 @@
 // remember: anagram also requires the appearance of the letter in both strings is same.
 var isAnagram = function(s, t) {
   var isAnagram = true;
-  if (s.length !== t.length) { return false ;}
+  if (s.length !== t.length) return false ;
   var sObject = {};
   for (var i = 0; i < s.length; i++) {
     sObject[s[i]] ? sObject[s[i]]++ : (sObject[s[i]] = 1);
@@ -19,7 +19,7 @@ var isAnagram = function(s, t) {
     if (!tObject.hasOwnProperty(key)) {
       isAnagram = false;
       break;
-    } else if( sObject[key] !== tObject[key] ) {
+    } else if (sObject[key] !== tObject[key]) {
       isAnagram = false;
       break;
     }
