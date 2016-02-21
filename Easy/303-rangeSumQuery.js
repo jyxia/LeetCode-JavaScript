@@ -1,6 +1,9 @@
 /**
  * Key: Dynamic Programming
- * 
+ * add an array to track the sum of previous elements
+ * sums[i] = sum[i-1] + nums[i-1];
+ * sumRange[i, j] = sums[j+1] - sums[i];
+ *
  * @constructor
  * @param {number[]} nums
  */
