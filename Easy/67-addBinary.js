@@ -9,6 +9,8 @@ var addBinary = function(a, b) {
     var aLength = a.length;
     var bLength = b.length;
     var i = 0;
+
+    // add '0' before the shorted binary string
     if (aLength <= bLength) {
         i = bLength - 1;
         for (var j = 0; j < bLength - aLength; j++) {
@@ -21,6 +23,7 @@ var addBinary = function(a, b) {
         }
     }
 
+    // extra is 1 if there is a carry
     while (i >= 0) {
         if (extra === 0) {
             result[i] = a[i] ^ b[i];
