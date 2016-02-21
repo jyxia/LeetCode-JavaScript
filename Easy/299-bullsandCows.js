@@ -21,7 +21,6 @@ var getHint = function(secret, guess) {
         else secretMap[secret[i]] = 1;
     }
     for (var j = 0; j < guess.length; j++) {
-        console.log(secretMap[guess[j]]);
         if (guess[j] !== secret[j] && secretMap[guess[j]]) {
             cow++;
             secretMap[guess[j]]--;
