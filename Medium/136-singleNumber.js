@@ -16,4 +16,11 @@ var singleNumber = function(nums) {
   return parseInt(Object.keys(appears)[0]);
 };
 
-// a better solution??
+// a better solution: use XOR. XOR same number is 0
+var singleNumber = function(nums) {
+    var result = 0;
+    for (var i = 0; i < nums.length; i++) {
+        result = nums[i] ^ result;
+    }
+    return result;
+};
