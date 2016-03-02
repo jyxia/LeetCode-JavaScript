@@ -18,12 +18,12 @@
 var removeNthFromEnd = function(head, n) {
     var fHead = head, sHead = head;
     var distance = 0;
-    while(distance < n) {
+    while (distance < n) {
         sHead = sHead.next;
         distance++;
     }
     if (!sHead) return fHead.next;
-    while(sHead.next) {
+    while (sHead.next) {
         fHead = fHead.next;
         sHead = sHead.next;
     }

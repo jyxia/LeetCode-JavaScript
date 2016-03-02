@@ -12,7 +12,7 @@
 var deleteDuplicates = function(head) {
   var origHead = head;
   while (head !== null && head.next !== null) {
-    if(head.next.val === head.val) {
+    if (head.next.val === head.val) {
       var headNextNext = head.next.next;
       head.next = headNextNext;
     } else {
