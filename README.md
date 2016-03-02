@@ -1,8 +1,8 @@
-####LeetCode Solutions in JavaScript
+#### LeetCode Solutions in JavaScript
 * Tried to use optimal solutions as much as I can. Most solutions are from the LeetCode community.
 * Written in [Airbnb JavaScript] (https://github.com/airbnb/javascript) style.
 * A work in progress.
-* If you find something wrong, or the code is not good, you are very welcome to contribute your better solutions.
+* If you find something wrong or the complexity is not good, you are very welcome to contribute your better solutions.
 
 ##### Easy
 * [7. Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/) - [Solution](./Easy/7-reverseInteger.js)
@@ -64,20 +64,20 @@
 ##### Medium
 * [3. Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/) -  [Solution](./Medium/3-lengthOfLongestSubstring.js)
 * [35. Search Insert Position Characters](https://oj.leetcode.com/problems/search-insert-position/) -  [Solution](./Medium/35-searchInsert.js)
-* [53]() - [Solution](./Medium/53-maximumSubarray.js)
-* [94]() - [Solution](./Medium/94-binaryTreeInorder.js)
-* [96]() - [Solution](./Medium/96-uniqueBinarySearchTrees.js)
-* [108]() - [Solution](./Medium/108-convertSortedArraytoBST.js)
-* [116]() - [Solution](./Medium/116-PopulatingNextRightPointersinEachNode.js)
-* [121]() - [Solution](./Medium/121-bestTimeToBuySellStock.js)
-* [122]() - [Solution](./Medium/122-bestTimeToBuySellStockII.js)
-* [136]() - [Solution](./Medium/136-singleNumber.js)
-* [141]() - [Solution](./Medium/141-linkedListCycle.js)
-* [144]() - [Solution](./Medium/144-binaryTreePreorder.js)
-* [153]() - [Solution](./Medium/153-findMinimumInRotatedSortedArray.js)
-* [230]() - [Solution](./Medium/230-kthSmallestElementinBST.js)
-* [238]() - [Solution](./Medium/238-productExceptSelf.js)
-* [260]() - [Solution](./Medium/260-singleNumberIII.js)
-* [268]() - [Solution](./Medium/268-missingNumber.js)
-* [318]() - [Solution](./Medium/318-maximumProductWordLengths.js)
-* [319]() - [Solution](./Medium/319-bulbSwitcher.js)
+* [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) - [Solution](./Medium/53-maximumSubarray.js)
+* [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) - [Solution](./Medium/94-binaryTreeInorder.js)
+* [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) - [Solution](./Medium/96-uniqueBinarySearchTrees.js)
+* [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) - [Solution](./Medium/108-convertSortedArraytoBST.js)
+* [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) - [Solution](./Medium/116-PopulatingNextRightPointersinEachNode.js)
+* [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - [Solution](./Medium/121-bestTimeToBuySellStock.js)
+* [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) - [Solution](./Medium/122-bestTimeToBuySellStockII.js)
+* [136. Single Number](https://leetcode.com/problems/single-number/) - [Solution](./Medium/136-singleNumber.js)
+* [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) - [Solution](./Medium/141-linkedListCycle.js)
+* [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) - [Solution](./Medium/144-binaryTreePreorder.js)
+* [153.	Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) - [Solution](./Medium/153-findMinimumInRotatedSortedArray.js)
+* [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) - [Solution](./Medium/230-kthSmallestElementinBST.js)
+* [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - [Solution](./Medium/238-productExceptSelf.js)
+* [260. Single Number III](https://leetcode.com/problems/single-number-iii/) - [Solution](./Medium/260-singleNumberIII.js)
+* [268. Missing Number](https://leetcode.com/problems/missing-number/) - [Solution](./Medium/268-missingNumber.js)
+* [318. Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) - [Solution](./Medium/318-maximumProductWordLengths.js)
+* [319. Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) - [Solution](./Medium/319-bulbSwitcher.js)
