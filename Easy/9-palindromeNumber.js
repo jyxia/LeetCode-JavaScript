@@ -14,7 +14,7 @@ var isPalindrome = function(x) {
 };
 
 // 2nd solution
-// it is slower than 1st solution, however, it only needs to examine half of the number
+// It only needs to examine half of the number
 // just be careful if the number is has factor 10
 // also a good solution in case overflow happens
 var isPalindrome = function(x) {

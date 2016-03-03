@@ -9,18 +9,6 @@
  * @param {TreeNode} root
  * @return {number}
  */
-// not accepted!!
-var maxDepth = function(root) {
-  if (root === null) { return 0; }
-  if (maxDepth(root.left) > maxDepth(root.right)) {
-    root = root.left;
-  } else {
-    root = root.right;
-  }
-  return maxDepth(root) + 1;
-};
-
-// accepted
 var maxDepth = function(root) {
   var max = 0;
   var lmax = maxDepth(root.left);

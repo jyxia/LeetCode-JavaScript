@@ -41,6 +41,7 @@ var mergeTwoLists = function(l1, l2) {
 };
 
 // discard first dummy node in the new list which contains the merged result.
+// this is good and straightforward
 var mergeTwoLists = function(l1, l2) {
     var l3 = new ListNode();
     var l3Head = l3;
