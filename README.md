@@ -1,6 +1,6 @@
 #### LeetCode Solutions in JavaScript
 * Tried to use optimal solutions as much as I can. Most solutions are from the LeetCode community.
-* Written in [Airbnb JavaScript] (https://github.com/airbnb/javascript) style.
+* Written in [Airbnb JavaScript](https://github.com/airbnb/javascript) style.
 * A work in progress.
 * If you find something wrong or the complexity is not good, you are very welcome to contribute your better solutions.
 
@@ -11,6 +11,7 @@
 * [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) - [Solution](./Easy/14-longestCommonPrefix.js)
 * [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) - [Solution](./Easy/19-removeNthNodeFromEndofList.js)
 * [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) - [Solution](./Easy/21-mergeSortedLists.js)
+* [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) - [Solution](./Easy/24-swapNodesPairs.js)
 * [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/) - [Solution](./Easy/28-implementstrStr.js)
 * [38. Count and Say](https://leetcode.com/problems/count-and-say/) - [Solution](./Easy/38-countandSay.js)
 * [66. Plus One](https://leetcode.com/problems/plus-one/) - [Solution](./Easy/66-plusOne.js)
@@ -63,8 +64,12 @@
 
 ##### Medium
 * [3. Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/) -  [Solution](./Medium/3-lengthOfLongestSubstring.js)
+* [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) -  [Solution](./Medium/22-generateParentheses.js)
 * [35. Search Insert Position Characters](https://oj.leetcode.com/problems/search-insert-position/) -  [Solution](./Medium/35-searchInsert.js)
+* [46. Permutations](https://leetcode.com/problems/permutations/) -  [Solution](./Medium/46-permutations.js)
 * [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) - [Solution](./Medium/53-maximumSubarray.js)
+* [62.	Unique Paths](https://leetcode.com/problems/unique-paths/) - [Solution](./Medium/62-uniquePaths.js)
+* [77.	Combinations](https://leetcode.com/problems/combinations/) - [Solution](./Medium/77-combinations.js)
 * [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) - [Solution](./Medium/94-binaryTreeInorder.js)
 * [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) - [Solution](./Medium/96-uniqueBinarySearchTrees.js)
 * [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) - [Solution](./Medium/108-convertSortedArraytoBST.js)
