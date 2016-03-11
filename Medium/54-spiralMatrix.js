@@ -3,6 +3,7 @@
  * Traverse from up to down, decrease colEnd, means this right column has been visited.
  * Traverse from right to left, decrease rowEnd, means this bottom row has been visited.
  * Traverse from down to up, increase colStart, means this left column has been visited.
+ * if one row/column left, no circle can be formed, so
  * when the rowStart === rowEnd, there is only this row left to visit, (left -> right)
  * when the colStart === colEnd, there is only this column left to visit, (up -> down)
  *
