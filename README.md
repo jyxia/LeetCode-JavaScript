@@ -76,6 +76,7 @@
 * [64.	Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) - [Solution](./Medium/64-minimumPathSum.js)
 * [75.  Sort Colors](https://leetcode.com/problems/sort-colors/) - [Solution](./Medium/75-sortColors.js)
 * [77.	Combinations](https://leetcode.com/problems/combinations/) - [Solution](./Medium/77-combinations.js)
+* [89. Gray Code](https://leetcode.com/problems/gray-code/) - [Solution](./Medium/89-grayCode.js)
 * [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) - [Solution](./Medium/94-binaryTreeInorder.js)
 * [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) - [Solution](./Medium/96-uniqueBinarySearchTrees.js)
 * [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) - [Solution](./Medium/108-convertSortedArraytoBST.js)
