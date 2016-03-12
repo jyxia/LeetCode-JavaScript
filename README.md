@@ -69,6 +69,7 @@
 * [35. Search Insert Position Characters](https://oj.leetcode.com/problems/search-insert-position/) -  [Solution](./Medium/35-searchInsert.js)
 * [39. Combination Sum](https://oj.leetcode.com/problems/combination-sum/) -  [Solution](./Medium/39-combinationSum.js)
 * [46. Permutations](https://leetcode.com/problems/permutations/) -  [Solution](./Medium/46-permutations.js)
+* [48. Rotate Image](https://leetcode.com/problems/rotate-image/) -  [Solution](./Medium/48-rotateImage.js)
 * [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) - [Solution](./Medium/53-maximumSubarray.js)
 * [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) - [Solution](./Medium/54-spiralMatrix.js)
 * [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) - [Solution](./Medium/59-spiralMatrixII.js)
