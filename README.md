@@ -64,6 +64,7 @@
 
 ##### Medium
 * [3. Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/) -  [Solution](./Medium/3-lengthOfLongestSubstring.js)
+* [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) -  [Solution](./Medium/11-containerMostWater.js)
 * [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) -  [Solution](./Medium/22-generateParentheses.js)
 * [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) -  [Solution](./Medium/24-swapNodesPairs.js)
 * [35. Search Insert Position Characters](https://oj.leetcode.com/problems/search-insert-position/) -  [Solution](./Medium/35-searchInsert.js)
@@ -92,5 +93,6 @@
 * [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - [Solution](./Medium/238-productExceptSelf.js)
 * [260. Single Number III](https://leetcode.com/problems/single-number-iii/) - [Solution](./Medium/260-singleNumberIII.js)
 * [268. Missing Number](https://leetcode.com/problems/missing-number/) - [Solution](./Medium/268-missingNumber.js)
+* [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) - [Solution](./Medium/300-longestIncreasingSubsequence.js)
 * [318. Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) - [Solution](./Medium/318-maximumProductWordLengths.js)
 * [319. Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) - [Solution](./Medium/319-bulbSwitcher.js)
