@@ -95,6 +95,7 @@
 * [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) - [Solution](./Medium/230-kthSmallestElementinBST.js)
 * [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - [Solution](./Medium/238-productExceptSelf.js)
 * [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) - [Solution](./Medium/240-Search2DMatrixII.js)
+* [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) - [Solution](./Medium/241-differentWaysAddParentheses.js)
 * [260. Single Number III](https://leetcode.com/problems/single-number-iii/) - [Solution](./Medium/260-singleNumberIII.js)
 * [268. Missing Number](https://leetcode.com/problems/missing-number/) - [Solution](./Medium/268-missingNumber.js)
 * [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) - [Solution](./Medium/300-longestIncreasingSubsequence.js)
