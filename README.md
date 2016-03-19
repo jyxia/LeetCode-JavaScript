@@ -87,6 +87,7 @@
 * [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) - [Solution](./Medium/116-PopulatingNextRightPointersinEachNode.js)
 * [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - [Solution](./Medium/121-bestTimeToBuySellStock.js)
 * [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) - [Solution](./Medium/122-bestTimeToBuySellStockII.js)
+* [129. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) - [Solution](./Medium/129-sumRootToLeafNumbers.js)
 * [136. Single Number](https://leetcode.com/problems/single-number/) - [Solution](./Medium/136-singleNumber.js)
 * [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) - [Solution](./Medium/141-linkedListCycle.js)
 * [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) - [Solution](./Medium/144-binaryTreePreorder.js)

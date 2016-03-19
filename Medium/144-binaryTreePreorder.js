@@ -18,7 +18,9 @@ var preorderTraversal = function(root) {
             order.push(root.val);
             if (root.right) rightNodes.push(root.right);
             root = root.left;
-        } else root = rightNodes.pop();
+        } else {
+          root = rightNodes.pop();
+        }
     }
     return order;
 };
