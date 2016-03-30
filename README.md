@@ -80,6 +80,7 @@
 * [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) - [Solution](./Medium/74-search2DMatrix.js)
 * [75.  Sort Colors](https://leetcode.com/problems/sort-colors/) - [Solution](./Medium/75-sortColors.js)
 * [77.	Combinations](https://leetcode.com/problems/combinations/) - [Solution](./Medium/77-combinations.js)
+* [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) - [Solution](./Medium/80-removeDuplicatesII.js)
 * [89. Gray Code](https://leetcode.com/problems/gray-code/) - [Solution](./Medium/89-grayCode.js)
 * [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) - [Solution](./Medium/94-binaryTreeInorder.js)
 * [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) - [Solution](./Medium/96-uniqueBinarySearchTrees.js)
@@ -106,3 +107,6 @@
 * [318. Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) - [Solution](./Medium/318-maximumProductWordLengths.js)
 * [319. Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) - [Solution](./Medium/319-bulbSwitcher.js)
 * [337. House Robber III](https://leetcode.com/problems/house-robber-iii/) - [Solution](./Medium/337-houseRobberIII.js)
+
+##### Hard
+* [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) -  [Solution](./Medium/33-searchRotatedSortedArray.js)
