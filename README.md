@@ -63,6 +63,7 @@
 * [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) - [Solution](./Easy/328-oddevenLinkedList.js)
 
 ##### Medium
+* [1. Two Sum](https://leetcode.com/problems/two-sum/) - [Solution](./Medium/1-twoSum.js)
 * [3. Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/) -  [Solution](./Medium/3-lengthOfLongestSubstring.js)
 * [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) -  [Solution](./Medium/11-containerMostWater.js)
 * [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) -  [Solution](./Medium/22-generateParentheses.js)
