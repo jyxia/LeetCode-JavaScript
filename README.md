@@ -66,6 +66,7 @@
 * [1. Two Sum](https://leetcode.com/problems/two-sum/) - [Solution](./Medium/1-twoSum.js)
 * [3. Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/) -  [Solution](./Medium/3-lengthOfLongestSubstring.js)
 * [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/) -  [Solution](./Medium/11-containerMostWater.js)
+* [15. 3Sum](https://leetcode.com/problems/3sum/) -  [Solution](./Medium/15-3sum.js)
 * [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) -  [Solution](./Medium/22-generateParentheses.js)
 * [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) -  [Solution](./Medium/24-swapNodesPairs.js)
 * [35. Search Insert Position Characters](https://oj.leetcode.com/problems/search-insert-position/) -  [Solution](./Medium/35-searchInsert.js)
