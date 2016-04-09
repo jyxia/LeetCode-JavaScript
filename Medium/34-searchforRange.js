@@ -20,6 +20,7 @@ var searchRange = function(nums, target) {
 
     hi = nums.length - 1;
     while (lo < hi) {
+        // this +1 is very important!!! Make mid biased to the right
         var mid = lo + Math.floor((hi - lo) / 2) + 1;
         if (nums[mid] > target) hi = mid - 1;
         else lo = mid;
