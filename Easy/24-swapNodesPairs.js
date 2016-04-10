@@ -30,3 +30,35 @@ var swapPairs = function(head) {
 
     return newHead;
 };
+
+// re write
+var swapPairs = function(head) {
+    if (!head || !head.next) return head;
+    var p = head;
+    var pPrev = head;
+    var newHead = head.next;
+    while (p) {
+        var pNext = p.next;
+        if (pNext) {
+            pPrev.next = pNext;
+            p.next = pNext.next;
+            pNext.next = p;
+            pPrev = p;
+            p = p.next;
+        } else {
+            break;
+        }
+    }
+
+    return newHead;
+};
+
+// recursion version, clean Code
+var swapPairs = function(head) {
+    if (!head || !head.next) return head;
+    var p = head;
+    var pNext = p.next;
+    p.next = swapPairs(pNext.next);
+    pNext.next = p;
+    return pNext;
+};

@@ -75,7 +75,6 @@
 * [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/) -  [Solution](./Medium/16-3sumClosest.js)
 * [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) -  [Solution](./Medium/17-LetterCombinationsPhoneNumber.js)
 * [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) -  [Solution](./Medium/22-generateParentheses.js)
-* [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) -  [Solution](./Medium/24-swapNodesPairs.js)
 * [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) -  [Solution](./Medium/29-DivideTwoIntegers.js)
 * [31. Next Permutation](https://leetcode.com/problems/next-permutation/) -  [Solution](./Medium/31-nextPermutation.js)
 * [31. Next Permutation](https://leetcode.com/problems/next-permutation/) -  [Solution](./Medium/31-nextPermutation.js)
@@ -122,4 +121,7 @@
 * [337. House Robber III](https://leetcode.com/problems/house-robber-iii/) - [Solution](./Medium/337-houseRobberIII.js)
 
 ##### Hard
-* [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) -  [Solution](./Medium/33-searchRotatedSortedArray.js)
+* [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) -  [Solution](./Hard/23-MergeKSortedLists.js)
+* [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) -  [Solution](./Hard/25-reverseNodesInKGroup.js)
+* [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) -  [Solution](./Hard/32-longestValidParentheses.js)
+* [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) -  [Solution](./Hard/33-searchRotatedSortedArray.js)
