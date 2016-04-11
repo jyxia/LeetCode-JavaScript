@@ -94,6 +94,7 @@
 * [77.	Combinations](https://leetcode.com/problems/combinations/) - [Solution](./Medium/77-combinations.js)
 * [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) - [Solution](./Medium/80-removeDuplicatesII.js)
 * [89. Gray Code](https://leetcode.com/problems/gray-code/) - [Solution](./Medium/89-grayCode.js)
+* [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) - [Solution](./Medium/92-reverseLinkedListII.js)
 * [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) - [Solution](./Medium/94-binaryTreeInorder.js)
 * [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) - [Solution](./Medium/96-uniqueBinarySearchTrees.js)
 * [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) - [Solution](./Medium/108-convertSortedArraytoBST.js)
