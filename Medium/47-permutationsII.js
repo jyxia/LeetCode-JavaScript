@@ -42,3 +42,40 @@ var deepCopyArray = function(nums) {
     }
     return newNums;
 };
+
+// A iterative version, accepted, 140ms, beats 100%
+// same idea as permutation,
+// but, sort first, then if there is number is same as the previous one, skip
+// for example: nums=[1,2,2]
+// step1: [1]
+// step2: inserst 2 to [1], two possibilities: [2,1], [1,2]
+// step3: inserst 2 to [1,2] and [2,1]? but there is a 2 in each array, so skip this number and return
+var permuteUnique = function(nums) {
+    if (nums.length === 0) return nums;
+    nums.sort(function(a, b) {
+        return a - b;
+    });
+    var results = [[nums[0]]];
+    for (var i = 1; i < nums.length; i++) {
+        var newResults = [];
+        for (var m = 0; m < results.length; m++) {
+            for (var j = 0; j <= i; j++) {
+                var list = deepCopyArray(results[m]);
+                list.splice(j, 0, nums[i]);
+                newResults.push(list);
+                if (results[m][j] === nums[i]) break;
+            }
+        }
+        results = newResults;
+    }
+
+    return results;
+};
+
+var deepCopyArray = function(nums) {
+    var newNums = [];
+    for (var i = 0; i < nums.length; i++) {
+        newNums[i] = nums[i];
+    }
+    return newNums;
+};

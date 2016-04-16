@@ -45,3 +45,37 @@ var deepCopyArray = function(nums) {
     }
     return newNums;
 };
+
+// A iterative version
+// for example: nums=[1,2,3]
+// step1: [1]
+// step2: inserst 2 to [1], two possibilities: [2,1], [1,2]
+// step2: inserst 3 to [1,2] and [2,1],
+// Three possibilities for each: [3,2,1], [2,3,1], [2,1,3] & [3,1,2], [1,3,2], [1,2,3]
+var permute = function(nums) {
+    if (nums.length === 0) return nums;
+    var results = [[nums[0]]];
+    for (var i = 1; i < nums.length; i++) {
+        var newResults = [];
+        for (var m = 0; m < results.length; m++) {
+            for (var j = 0; j <= i; j++) {
+                // still need a deep copy of results[m],
+                // otherwise, a change to list will affect results array.
+                var list = deepCopyArray(results[m]);
+                list.splice(j, 0, nums[i]);
+                newResults.push(list);
+            }
+        }
+        results = newResults;
+    }
+
+    return results;
+};
+
+var deepCopyArray = function(nums) {
+    var newNums = [];
+    for (var i = 0; i < nums.length; i++) {
+        newNums[i] = nums[i];
+    }
+    return newNums;
+};

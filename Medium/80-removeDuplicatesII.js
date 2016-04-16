@@ -1,5 +1,5 @@
 /**
- * Key: Use two pointers. First pointer is for the a generated array
+ * Key: Use two pointers. First pointer is for the a newly(modified) generated array
  * as long as it doesn't have more than two more Duplicates, the original point
  * keeps moving...
  *
