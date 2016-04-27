@@ -14,3 +14,19 @@ var moveZeroes = function(nums) {
     }
   }
 };
+
+// two pointers
+var moveZeroes = function(nums) {
+    var newStart = 0;
+    for (var i = 0; i < nums.length; i++) {
+        if (nums[i] !== 0) {
+            nums[newStart] = nums[i];
+            newStart++;
+        }
+    }
+
+    while (newStart < nums.length) {
+        nums[newStart] = 0;
+        newStart++;
+    }
+};
