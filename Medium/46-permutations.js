@@ -19,8 +19,8 @@ var permute = function(nums) {
 };
 
 var permuteHelper = function(start, nums, results) {
-    if (start >= nums.length) {
-        results.push(deepCopyArray(nums));
+    if (start === nums.length) {
+        results.push(nums.slice());
         return;
     }
 
@@ -38,14 +38,6 @@ var swap = function(nums, i, j) {
     nums[j] = tmp;
 };
 
-var deepCopyArray = function(nums) {
-    var newNums = [];
-    for (var i = 0; i < nums.length; i++) {
-        newNums[i] = nums[i];
-    }
-    return newNums;
-};
-
 // A iterative version
 // for example: nums=[1,2,3]
 // step1: [1]
@@ -61,7 +53,7 @@ var permute = function(nums) {
             for (var j = 0; j <= i; j++) {
                 // still need a deep copy of results[m],
                 // otherwise, a change to list will affect results array.
-                var list = deepCopyArray(results[m]);
+                var list = results[m].slice();
                 list.splice(j, 0, nums[i]);
                 newResults.push(list);
             }
@@ -70,12 +62,4 @@ var permute = function(nums) {
     }
 
     return results;
-};
-
-var deepCopyArray = function(nums) {
-    var newNums = [];
-    for (var i = 0; i < nums.length; i++) {
-        newNums[i] = nums[i];
-    }
-    return newNums;
 };

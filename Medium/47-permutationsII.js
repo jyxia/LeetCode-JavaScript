@@ -15,7 +15,7 @@ var permuteUnique = function(nums) {
 
 var permutation = function(results, nums, start) {
     if (start >= nums.length) {
-        results.push(deepCopyArray(nums));
+        results.push(nums.slice());
         return;
     }
 
@@ -35,14 +35,6 @@ var swap = function(nums, i, j) {
 };
 
 
-var deepCopyArray = function(nums) {
-    var newNums = [];
-    for (var i = 0; i < nums.length; i++) {
-        newNums[i] = nums[i];
-    }
-    return newNums;
-};
-
 // A iterative version, accepted, 140ms, beats 100%
 // same idea as permutation,
 // but, sort first, then if there is number is same as the previous one, skip
@@ -60,7 +52,7 @@ var permuteUnique = function(nums) {
         var newResults = [];
         for (var m = 0; m < results.length; m++) {
             for (var j = 0; j <= i; j++) {
-                var list = deepCopyArray(results[m]);
+                var list = results[m].slice();
                 list.splice(j, 0, nums[i]);
                 newResults.push(list);
                 if (results[m][j] === nums[i]) break;
@@ -70,12 +62,4 @@ var permuteUnique = function(nums) {
     }
 
     return results;
-};
-
-var deepCopyArray = function(nums) {
-    var newNums = [];
-    for (var i = 0; i < nums.length; i++) {
-        newNums[i] = nums[i];
-    }
-    return newNums;
 };

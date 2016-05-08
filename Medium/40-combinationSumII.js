@@ -15,7 +15,7 @@ var combinationSum2 = function(candidates, target) {
 
 var combinationSum2Helper = function(candidates, result, results, target, start) {
   if (target === 0) {
-      results.push(deepCopy(result));
+      results.push(deepCopy(result.slice()));
       return;
   }
 
@@ -29,10 +29,4 @@ var combinationSum2Helper = function(candidates, result, results, target, start)
           result.pop();
       }
   }
-};
-
-var deepCopy = function(nums) {
-    var newNums = [];
-    for (var i = 0; i < nums.length; i++) newNums.push(nums[i]);
-    return newNums;
 };
