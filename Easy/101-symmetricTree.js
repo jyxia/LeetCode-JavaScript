@@ -18,7 +18,7 @@ var isSymmetric = function(root) {
 var isSymmetricHelper = function(left, right) {
   if (!left || !right) return left === right;
   if (left.val !== right.val) return false;
-  else return isSymmetricHelper(left.left, right.right) && isSymmetricHelper(left.right, right.left);
+  return isSymmetricHelper(left.left, right.right) && isSymmetricHelper(left.right, right.left);
 };
 
 // iterative
@@ -29,7 +29,9 @@ var isSymmetric = function(root) {
         if (!root.right) return false;
         treeStack.push(root.left);
         treeStack.push(root.right);
-    } else if (root.right) return false;
+    } else if (root.right) {
+      return false;
+    }
 
     while(treeStack.length > 0) {
         if (treeStack.length % 2 !== 0) return false;
@@ -38,15 +40,46 @@ var isSymmetric = function(root) {
         if (right.val !== left.val) return false;
         if (left.left) {
             if (!right.right) return false;
-            treeStack.push(left.left);
-            treeStack.push(right.right);
+            treeStack.push(left.left, right.right);
         } else if (right.right) return false;
 
         if (right.left) {
             if (!left.right) return false;
-            treeStack.push(right.left);
-            treeStack.push(left.right);
+            treeStack.push(right.left, left.right);
         } else if (left.right) return false;
+    }
+
+    return true;
+};
+
+// a second try
+var isSymmetric = function(root) {
+    if (!root) return true;
+    var stack = [];
+    if (root.left && root.right) {
+        stack.push(root.left);
+        stack.push(root.right);
+    } else if (!root.left && !root.right) {
+        return true;
+    } else {
+        return false;
+    }
+
+    while (stack.length > 0) {
+        if (stack.length % 2 !== 0) return false;
+        var left = stack.pop();
+        var right = stack.pop();
+        if (left.val !== right.val) return false;
+        if (left.left && right.right) {
+            stack.push(left.left, right.right);
+        } else if ((!left.left && right.right) || (left.left && !right.right)) {
+            return false;
+        }
+        if (right.left && left.right) {
+            stack.push(right.left, left.right);
+        } else if ((!right.left && left.right) || (right.left && !left.right)) {
+            return false;
+        }
     }
 
     return true;

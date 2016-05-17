@@ -34,3 +34,48 @@ var levelOrder = function(root) {
 
     return result;
 };
+
+// second try
+var levelOrder = function(root) {
+    var results = [];
+    if (!root) return results;
+    var prevLevel = [root];
+    var currLevel = [];
+    var result = [];
+
+    while (prevLevel.length > 0) {
+        while (prevLevel.length > 0) {
+            var node = prevLevel.shift();
+            result.push(node.val);
+            if (node.left) {
+                currLevel.push(node.left);
+            }
+            if (node.right) {
+                currLevel.push(node.right);
+            }
+        }
+        results.push(result);
+        prevLevel = currLevel;
+        currLevel = [];
+        result = [];
+    }
+
+    return results;
+};
+
+// third try, recursive. DFS.
+var levelOrder = function(root) {
+    var results = [];
+    helper(results, root, 0);
+    return results;
+};
+
+var helper = function(results, node, level) {
+    if (!node) return results;
+    if (level >= results.length) {
+        results[level] = [];
+    }
+    results[level].push(node.val);
+    helper(results, node.left, level + 1);
+    helper(results, node.right, level + 1);
+};
