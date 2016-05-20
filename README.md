@@ -116,6 +116,8 @@
 * [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) - [Solution](./Medium/98-validateBST.js)
 * [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) - [Solution](./Medium/103-BSTZigzagLevelTraversal.js)
 * [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) - [Solution](./Medium/108-convertSortedArraytoBST.js)
+* [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/) - [Solution](./Medium/113-pathSumII.js)
+* [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) - [Solution](./Medium/114-flattenTree.js)
 * [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) - [Solution](./Medium/116-PopulatingNextRightPointersinEachNode.js)
 * [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - [Solution](./Medium/121-bestTimeToBuySellStock.js)
 * [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) - [Solution](./Medium/122-bestTimeToBuySellStockII.js)
