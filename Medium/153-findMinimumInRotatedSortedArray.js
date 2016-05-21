@@ -21,3 +21,24 @@ var findMin = function(nums) {
 
     return nums[0];
 };
+
+// second try
+var findMin = function(nums) {
+    var lo = 0;
+    var hi = nums.length - 1;
+
+    while (lo <= hi) {
+        if (nums[lo] < nums[hi]) return nums[lo];
+        var mid = lo + Math.floor((hi - lo) / 2);
+        if (nums[lo] <= nums[mid]) {
+            // this case, minimun must exist in the second half
+            lo = mid + 1;
+        } else {
+            // this case, mininum can be mid itself or must exist in the first half.
+            hi = mid;
+        }
+    }
+
+    // if hi < lo, then nums[hi] is the minum.
+    return nums[hi];
+};

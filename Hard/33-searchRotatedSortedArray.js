@@ -1,5 +1,8 @@
 /**
- * Binary search
+ * Binary search. In the rotated array, there must be a half of the array in sorted order.
+ * @see the recursive method. If the target is in the sorted half, binary search the target in
+ * this half. Otherwise, search the target in the other half. And recursively do this process until
+ * the target is found.
  *
  * @param {number[]} nums
  * @param {number} target
@@ -31,7 +34,7 @@ var searchHelper = function(nums, left, right, target) {
     }
 };
 
-// Interative, to be continued
+// Interative
 var search = function(nums, target) {
     var left = 0;
     var right = nums.length - 1;
