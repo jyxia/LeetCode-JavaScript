@@ -1,7 +1,7 @@
 /**
  * Similar to 153-findMinimumInRotatedSortedArray, and 81-searchRotatedSortedArrayII,
- * combile the solutions from these two.
- * 
+ * combile the solutions from these two. e.g. [1,1,1,3,1,1,1,1,1,1], or [1,1,1,1,1,1,1,3,1]
+ *
  * @param {number[]} nums
  * @return {number}
  */
