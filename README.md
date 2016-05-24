@@ -155,6 +155,8 @@
 * [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) -  [Solution](./Hard/25-reverseNodesInKGroup.js)
 * [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) -  [Solution](./Hard/32-longestValidParentheses.js)
 * [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) -  [Solution](./Hard/33-searchRotatedSortedArray.js)
+* [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) -  [Solution](./Hard/41-firstMissingPositive.js)
+* [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) -  [Solution](./Hard/45-jumpGameII.js)
 * [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) -  [Solution](./Hard/56-MergeIntervals.js)
 * [57. Insert Interval](https://leetcode.com/problems/insert-interval/) -  [Solution](./Hard/57-insertInterval.js)
 * [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) -  [Solution](./Hard/123-bestTimeBuySellStockIII.js)
