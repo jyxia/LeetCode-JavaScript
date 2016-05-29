@@ -162,5 +162,7 @@
 * [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) -  [Solution](./Hard/33-searchRotatedSortedArray.js)
 * [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) -  [Solution](./Hard/56-MergeIntervals.js)
 * [57. Insert Interval](https://leetcode.com/problems/insert-interval/) -  [Solution](./Hard/57-insertInterval.js)
+* [115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) -  [Solution](./Hard/115-distinctSubsequences.js)
 * [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) -  [Solution](./Hard/123-bestTimeBuySellStockIII.js)
+* [132. Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) -  [Solution](./Hard/132-palindromePartitioningII.js)
 * [154.	Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) - [Solution](./Hard/154-findMinimumInRotatedSortedArray-II.js)
