@@ -2,7 +2,6 @@
  * @param {string} s
  * @return {number}
  */
-
 var minCut = function(s) {
     if (!s) return 0;
     var length = s.length;
@@ -11,7 +10,7 @@ var minCut = function(s) {
         isPal[i] = [];
         for(var j = i; j < length; j++) {
             if ((j - i <= 2 || isPal[i+1][j-1]) && s[i] == s[j])
-              isPal[i][j] = true;
+                isPal[i][j] = true;
         }
     }
 

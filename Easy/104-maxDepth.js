@@ -22,3 +22,11 @@ var maxDepth = function(root) {
   }
   return max + 1;
 }
+
+// second try
+var maxDepth = function(root) {
+    if (!root) return 0;
+    var lHeight = maxDepth(root.left) + 1;
+    var rHeight = maxDepth(root.right) + 1;
+    return lHeight > rHeight ? lHeight : rHeight;
+};
