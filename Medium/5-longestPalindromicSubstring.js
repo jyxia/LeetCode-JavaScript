@@ -1,5 +1,5 @@
 /**
- * Key: see inline comments. O(N^2)
+ * Key: see inline comments. O(N^2). Space O(1).
  *
  * @param {string} s
  * @return {string}
