@@ -1,10 +1,10 @@
 /**
  * Solution: Dynamic programming
- * match[i][j], the number of matched substrings when s with the length i and t with the length j.
- * if s[i-1] !== s[j-1], then the matched number equals to the matched number of s with length i - 1.
+ * match[i][j], the number of matched substrings between s[0...i) and t[0...j).
+ * if s[i-1] !== s[j-1], then the matched number equals to the matched number of s[0...i-1).
  * that is, match[i][j] = match[i-1][j].
- * if s[i-1] == s[j-1], the matched number is the mathched number when s with length i - 1 and t with length j,
- * plus the matched number when s with i - 1 length and t with j - 1 length.
+ * if s[i-1] == s[j-1], the matched number is the mathched number when s[0...i-1] and t[0...j),
+ * plus the matched number when s[0...j-1) and t[0...j-1).
  *
  * @param {string} s
  * @param {string} t

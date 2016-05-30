@@ -63,3 +63,28 @@ var permute = function(nums) {
 
     return results;
 };
+
+// Backtracking. 
+var permute = function(nums) {
+    var result = [];
+    var results = [];
+    var isVisited = [];
+    dfsHelper(nums, isVisited, result, results);
+    return results;
+};
+
+var dfsHelper = function(nums, isVisited, result, results) {
+    if (result.length === nums.length) {
+        results.push(result.slice());
+        return;
+    }
+
+    for (var i = 0; i < nums.length; i++) {
+        if (isVisited[i]) continue;
+        isVisited[i] = true;
+        result.push(nums[i]);
+        dfsHelper(nums, isVisited, result, results);
+        result.pop();
+        isVisited[i] = false;
+    }
+};

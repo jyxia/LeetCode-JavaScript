@@ -136,6 +136,7 @@
 * [136. Single Number](https://leetcode.com/problems/single-number/) - [Solution](./Medium/136-singleNumber.js)
 * [139. Word Break](https://leetcode.com/problems/word-break/) - [Solution](./Medium/139-wordBreak.js)
 * [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) - [Solution](./Medium/141-linkedListCycle.js)
+* [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) - [Solution](./Medium/142-linkedListCycleII.js)
 * [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) - [Solution](./Medium/144-binaryTreePreorder.js)
 * [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) - [Solution](./Medium/151-reverseWordsInAString.js)
 * [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) - [Solution](./Medium/152-MaxProductSubarray.js)
