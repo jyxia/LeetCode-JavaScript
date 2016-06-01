@@ -72,7 +72,7 @@ var levelOrder = function(root) {
 
 var helper = function(results, node, level) {
     if (!node) return results;
-    if (level >= results.length) {
+    if (level === results.length) {
         results[level] = [];
     }
     results[level].push(node.val);

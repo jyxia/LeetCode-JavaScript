@@ -94,6 +94,7 @@
 * [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) - [Solution](./Medium/54-spiralMatrix.js)
 * [55. Jump Game](https://leetcode.com/problems/jump-game/) - [Solution](./Medium/55-jumpGame.js)
 * [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) - [Solution](./Medium/59-spiralMatrixII.js)
+* [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) - [Solution](./Medium/60-permutationSequence.js)
 * [61. Rotate List](https://leetcode.com/problems/rotate-list/) - [Solution](./Medium/61-rotateList.js)
 * [62.	Unique Paths](https://leetcode.com/problems/unique-paths/) - [Solution](./Medium/62-uniquePaths.js)
 * [63.	Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) - [Solution](./Medium/63-uniquePathsII.js)
