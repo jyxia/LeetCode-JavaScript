@@ -26,6 +26,7 @@ var preorderTraversal = function(root) {
 };
 
 // this is a more straightforward method, but slower than first one.
+// stack tracks the node visit order
 var preorderTraversal = function(root) {
     if (!root) return [];
     var result = [];
