@@ -66,6 +66,9 @@
 * [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) - [Solution](./Easy/299-bullsandCows.js)
 * [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) - [Solution](./Easy/303-rangeSumQuery.js)
 * [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) - [Solution](./Easy/328-oddevenLinkedList.js)
+* [344. Reverse String](https://leetcode.com/problems/reverse-string/) - [Solution](./Easy/344-reverseString.js)
+* [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) - [Solution](./Easy/349-intersectionTwoArrays.js)
+* [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) - [Solution](./Easy/349-intersectionTwoArraysII.js)
 
 ##### Medium
 * [1. Two Sum](https://leetcode.com/problems/two-sum/) - [Solution](./Medium/1-twoSum.js)
@@ -164,6 +167,7 @@
 * [318. Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) - [Solution](./Medium/318-maximumProductWordLengths.js)
 * [319. Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) - [Solution](./Medium/319-bulbSwitcher.js)
 * [337. House Robber III](https://leetcode.com/problems/house-robber-iii/) - [Solution](./Medium/337-houseRobberIII.js)
+* [338. Counting Bits](https://leetcode.com/problems/counting-bits/) - [Solution](./Medium/338-countingBits.js)
 
 ##### Hard
 * [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) -  [Solution](./Hard/23-MergeKSortedLists.js)
