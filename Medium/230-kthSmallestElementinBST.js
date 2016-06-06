@@ -29,3 +29,21 @@ var kthSmallest = function(root, k) {
         }
     }
 };
+
+// second try
+var kthSmallest = function(root, k) {
+    var stack = [];
+
+    while (root || stack.length > 0) {
+        while (root) {
+            stack.push(root);
+            root = root.left;
+        }
+        root = stack.pop();
+        k--;
+        if (k === 0) return root.val;
+        root = root.right;
+    }
+
+    return 0;
+};

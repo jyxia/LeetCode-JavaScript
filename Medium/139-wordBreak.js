@@ -6,7 +6,7 @@
  * @return {boolean}
  */
 
-// recursion, not accepted, time exceeds limits.
+// recursion, not accepted, time exceeds limits. O(N^2)
 var wordBreak = function(s, wordDict) {
     return helper(s, wordDict, 0);
 };
@@ -21,4 +21,20 @@ var helper = function(s, wordDict, start) {
         }
     }
     return false;
+};
+
+// Dynamic, accepted
+var wordBreak = function(s, wordDict) {
+    var canBreak = [true];
+    for (var i = 0; i < s.length; i++) {
+        if (!canBreak[i]) continue;
+        for (var word of wordDict) {
+            var wLength = word.length;
+            if (canBreak[i + wLength]) continue;
+            if (s.substring(i, i + wLength) === word) {
+                canBreak[i + wLength]  = true;
+            }
+        }
+    }
+    return canBreak[s.length] ? true : false;
 };
