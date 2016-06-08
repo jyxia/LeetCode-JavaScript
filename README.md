@@ -65,7 +65,10 @@
 * [290. Word Pattern](https://leetcode.com/problems/word-pattern/) - [Solution](./Easy/290-wordPattern.js)
 * [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) - [Solution](./Easy/299-bullsandCows.js)
 * [303. Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) - [Solution](./Easy/303-rangeSumQuery.js)
+* [326. Power of Three](https://leetcode.com/problems/power-of-three/) - [Solution](./Easy/326-powerOfThree.js)
 * [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) - [Solution](./Easy/328-oddevenLinkedList.js)
+* [342. Power of Four](https://leetcode.com/problems/power-of-four/) - [Solution](./Easy/342-powerOfFour.js)
+
 
 ##### Medium
 * [1. Two Sum](https://leetcode.com/problems/two-sum/) - [Solution](./Medium/1-twoSum.js)
@@ -164,6 +167,7 @@
 * [318. Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) - [Solution](./Medium/318-maximumProductWordLengths.js)
 * [319. Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) - [Solution](./Medium/319-bulbSwitcher.js)
 * [337. House Robber III](https://leetcode.com/problems/house-robber-iii/) - [Solution](./Medium/337-houseRobberIII.js)
+* [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) - [Solution](./Medium/247-topKFrequentElements.js)
 
 ##### Hard
 * [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) -  [Solution](./Hard/23-MergeKSortedLists.js)
