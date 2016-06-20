@@ -36,3 +36,18 @@ var combinationHelper = function(digits, results, result) {
         result.pop();
     }
 };
+
+// second try
+var combinationHelper = function(digits, results, result) {
+    if (!digits) {
+        results.push(result.join(''));
+        result = [];
+        return;
+    }
+    var letters = map[digits[0]];
+    for (var j = 0; j < letters.length; j++) {
+        result.push(letters[j]);
+        combinationHelper(digits.substring(1), results, result);
+        result.pop();
+    }
+};

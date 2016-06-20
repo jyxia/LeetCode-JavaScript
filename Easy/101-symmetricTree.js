@@ -21,6 +21,18 @@ var isSymmetricHelper = function(left, right) {
   return isSymmetricHelper(left.left, right.right) && isSymmetricHelper(left.right, right.left);
 };
 
+// second try, not good.
+var helper = function(left, right) {
+    if (!left || !right) {
+        if (!left && !right) return true;
+        return false;
+    }
+    if ((left.val === right.val) && helper(left.left, right.right) && helper(left.right, right.left)) {
+        return true;
+    }
+    return false;
+}
+
 // iterative
 var isSymmetric = function(root) {
     if (!root) return true;

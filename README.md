@@ -154,6 +154,7 @@
 * [213. House Robber II](https://leetcode.com/problems/house-robber-ii/) - [Solution](./Medium/213-houseRobberII.js)
 * [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) - [Solution](./Medium/215-KthLargestElementInArray.js)
 * [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) - [Solution](./Medium/216-CombinationSumIII.js)
+* [221. Maximal Square](https://leetcode.com/problems/maximal-square/) - [Solution](./Medium/221-maximalSquare.js)
 * [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/) - [Solution](./Medium/229-majorityElementII.js)
 * [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) - [Solution](./Medium/230-kthSmallestElementinBST.js)
 * [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - [Solution](./Medium/238-productExceptSelf.js)
@@ -166,6 +167,7 @@
 * [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) - [Solution](./Medium/309-bestTimeStockCooldown.js)
 * [318. Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) - [Solution](./Medium/318-maximumProductWordLengths.js)
 * [319. Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) - [Solution](./Medium/319-bulbSwitcher.js)
+* [331. Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) - [Solution](./Medium/331-verifyBinaryTree.js)
 * [337. House Robber III](https://leetcode.com/problems/house-robber-iii/) - [Solution](./Medium/337-houseRobberIII.js)
 * [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) - [Solution](./Medium/247-topKFrequentElements.js)
 
