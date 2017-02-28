@@ -47,3 +47,19 @@ var helper = function(root, sum) {
     return  helper(root.left, 10 * sum + root.val)
             + helper(root.right, 10 * sum + root.val);
 };
+
+// a third DFS method. Top-down
+var sumNumbers = function(root) {
+    if (!root) return 0;
+    return helper(root, 0, 0);
+};
+
+function helper(root, currNum, sum) {
+    if (!root) return sum;
+    currNum = root.val + 10 * currNum;
+    if (!root.left && !root.right) {
+        sum += currNum;
+        return sum;
+    }
+    return helper(root.left, currNum, sum) + helper(root.right, currNum, sum)
+}

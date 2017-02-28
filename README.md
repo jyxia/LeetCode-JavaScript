@@ -68,8 +68,10 @@
 * [326. Power of Three](https://leetcode.com/problems/power-of-three/) - [Solution](./Easy/326-powerOfThree.js)
 * [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) - [Solution](./Easy/328-oddevenLinkedList.js)
 * [342. Power of Four](https://leetcode.com/problems/power-of-four/) - [Solution](./Easy/342-powerOfFour.js)
+* [344. Reverse String](https://leetcode.com/problems/reverse-string/) - [Solution](./Easy/344-reverseString.js)
+* [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) - [Solution](./Easy/349-intersectionTwoArrays.js)
+* [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) - [Solution](./Easy/349-intersectionTwoArraysII.js)
 * [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/?tab=Solutions) - [Solution](./Easy/412-fizzBuzz.js)
-
 
 ##### Medium
 * [1. Two Sum](https://leetcode.com/problems/two-sum/) - [Solution](./Medium/1-twoSum.js)
@@ -145,6 +147,9 @@
 * [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) - [Solution](./Medium/142-linkedListCycleII.js)
 * [143. Reorder List](https://leetcode.com/problems/reorder-list/) - [Solution](./Medium/143-reorderList.js)
 * [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) - [Solution](./Medium/144-binaryTreePreorder.js)
+* [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) - [Solution](./Medium/147-insertionSortList.js)
+* [148. Sort List](https://leetcode.com/problems/sort-list/) - [Solution](./Medium/148-sortList.js)
+* [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) - [Solution](./Medium/150-reversePolishNotation.js)
 * [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) - [Solution](./Medium/151-reverseWordsInAString.js)
 * [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) - [Solution](./Medium/152-MaxProductSubarray.js)
 * [153.	Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) - [Solution](./Medium/153-findMinimumInRotatedSortedArray.js)
@@ -171,6 +176,7 @@
 * [319. Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) - [Solution](./Medium/319-bulbSwitcher.js)
 * [331. Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) - [Solution](./Medium/331-verifyBinaryTree.js)
 * [337. House Robber III](https://leetcode.com/problems/house-robber-iii/) - [Solution](./Medium/337-houseRobberIII.js)
+* [338. Counting Bits](https://leetcode.com/problems/counting-bits/) - [Solution](./Medium/338-countingBits.js)
 * [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) - [Solution](./Medium/247-topKFrequentElements.js)
 
 ##### Hard
