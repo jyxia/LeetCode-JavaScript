@@ -19,6 +19,21 @@ var climbStairs = function(n) {
     return result;
 };
 
+// 2nd try
+var climbStairs = function(n) {
+    if (n <= 2) return n;
+    var stepOne = 1;
+    var stepTwo = 2;
+    var result;
+    for (var i = 2; i < n; i++) {
+        result = stepOne + stepTwo;
+        stepOne = stepTwo;
+        stepTwo = result;
+    }
+
+    return result;
+};
+
 // recursive, exponential complexity. Not accepted
 var climbStairs = function(n) {
     if (n === 1) return 1;

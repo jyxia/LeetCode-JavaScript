@@ -68,6 +68,7 @@
 * [326. Power of Three](https://leetcode.com/problems/power-of-three/) - [Solution](./Easy/326-powerOfThree.js)
 * [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) - [Solution](./Easy/328-oddevenLinkedList.js)
 * [342. Power of Four](https://leetcode.com/problems/power-of-four/) - [Solution](./Easy/342-powerOfFour.js)
+* [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/?tab=Solutions) - [Solution](./Easy/412-fizzBuzz.js)
 
 
 ##### Medium
@@ -106,8 +107,8 @@
 * [71. Simplify Path](https://leetcode.com/problems/simplify-path/) - [Solution](./Medium/71-simplifyPath.js)
 * [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) - [Solution](./Medium/73-setMatrixZeroes.js)
 * [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) - [Solution](./Medium/74-search2DMatrix.js)
-* [75.  Sort Colors](https://leetcode.com/problems/sort-colors/) - [Solution](./Medium/75-sortColors.js)
-* [77.	Combinations](https://leetcode.com/problems/combinations/) - [Solution](./Medium/77-combinations.js)
+* [75. Sort Colors](https://leetcode.com/problems/sort-colors/) - [Solution](./Medium/75-sortColors.js)
+* [77. Combinations](https://leetcode.com/problems/combinations/) - [Solution](./Medium/77-combinations.js)
 * [78. Subsets](https://leetcode.com/problems/subsets/) - [Solution](./Medium/78-subsets.js)
 * [79. Word Search](https://leetcode.com/problems/word-search/) - [Solution](./Medium/79-wordSearch.js)
 * [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) - [Solution](./Medium/80-removeDuplicatesII.js)
@@ -163,6 +164,7 @@
 * [260. Single Number III](https://leetcode.com/problems/single-number-iii/) - [Solution](./Medium/260-singleNumberIII.js)
 * [268. Missing Number](https://leetcode.com/problems/missing-number/) - [Solution](./Medium/268-missingNumber.js)
 * [274. H-Index](https://leetcode.com/problems/h-index/) - [Solution](./Medium/274-hIndex.js)
+* [284. Peeking Iterator](https://leetcode.com/problems/peeking-iterator/) - [Solution](./Medium/284-peekingIterator.java)
 * [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) - [Solution](./Medium/300-longestIncreasingSubsequence.js)
 * [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) - [Solution](./Medium/309-bestTimeStockCooldown.js)
 * [318. Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) - [Solution](./Medium/318-maximumProductWordLengths.js)
@@ -186,3 +188,4 @@
 * [132. Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) -  [Solution](./Hard/132-palindromePartitioningII.js)
 * [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) -  [Solution](./Hard/145-binaryTreePostorder.js)
 * [154.	Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) - [Solution](./Hard/154-findMinimumInRotatedSortedArray-II.js)
+* [287. Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) - [Solution](./Hard/287-findDuplicateNumber.js)
