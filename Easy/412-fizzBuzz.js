@@ -25,6 +25,8 @@ var fizzBuzz = function(n) {
     var res = [];
 
     for (var i = 1, fizz = 0, buzz = 0; i <= n; i++) {
+        fizz++;
+        buzz++;
         if (fizz === 3 && buzz === 5) {
             res.push('FizzBuzz');
             fizz = 0;
@@ -37,8 +39,6 @@ var fizzBuzz = function(n) {
             fizz = 0;
         } else {
             res.push('' + i);
-            fizz++;
-            buzz++;
         }
      }
 

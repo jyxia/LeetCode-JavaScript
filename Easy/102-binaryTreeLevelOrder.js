@@ -79,3 +79,36 @@ var helper = function(results, node, level) {
     helper(results, node.left, level + 1);
     helper(results, node.right, level + 1);
 };
+
+
+// 4th try
+var levelOrder = function(root) {
+    var results = [];
+    var prevLevel = [];
+    var currentLevel = [root];
+
+    if (!root) {
+        return results;
+    }
+
+    while (currentLevel.length > 0) {
+        var result = [];
+        prevLevel = currentLevel.slice();
+        currentLevel = [];
+
+        while (prevLevel.length > 0) {
+            var node = prevLevel.shift();
+            result.push(node.val);
+            if (node.left) {
+                currentLevel.push(node.left);
+            }
+            if (node.right) {
+                currentLevel.push(node.right);
+            }
+        }
+
+        results.push(result);
+    }
+
+    return results;
+};

@@ -25,6 +25,42 @@ var isValid = function(s) {
         }
     }
 
-    if (stack.length === 0) return true;
-    else return false;
+    return stack.length === 0;
+};
+
+// second try
+var isValid = function(s) {
+    var stack = [];
+
+    s.split('').forEach(function(char) {
+       if (char === '(' || char === '{' || char === '[') {
+           stack.push(char);
+       }
+
+       if (char === ')') {
+           if (stack.length > 0 && stack[stack.length - 1] === '(') {
+               stack.pop();
+           } else {
+               stack.push(char);
+           }
+       }
+
+       if (char === ']') {
+           if (stack.length > 0 && stack[stack.length - 1] === '[') {
+               stack.pop();
+           } else {
+               stack.push(char);
+           }
+       }
+
+       if (char === '}') {
+           if (stack.length > 0 && stack[stack.length - 1] === '{') {
+               stack.pop();
+           } else {
+               stack.push(char);
+           }
+       }
+    });
+
+    return stack.length === 0;
 };
