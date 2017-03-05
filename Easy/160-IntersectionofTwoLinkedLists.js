@@ -44,3 +44,67 @@ var getLength = function(listHead) {
     }
     return length;
 };
+
+// 2nd try without knowing the length
+var getIntersectionNode = function(headA, headB) {
+    var intersection = null;
+    var pa = headA;
+    var pb = headB;
+
+    if (!pa || !pb) {
+        return intersection;
+    }
+
+    while (pa || pb) {
+        if (pa && pb && pa.val === pb.val) {
+            intersection = pa;
+        }
+
+        // this can be replace by pa === pb
+        while (pa && pb && pa.val === pb.val) {
+            pa = pa.next;
+            pb = pb.next;
+        }
+
+        if (pa === null && pb === null) {
+            break;
+        } else if (pa === null) {
+            pa = headB;
+        } else if (pb === null) {
+            pb = headA;
+        } else {
+            pa = pa.next;
+            pb = pb.next;
+        }
+    }
+
+    return intersection;
+};
+
+// more concise version,  compared to version 2
+var getIntersectionNode = function(headA, headB) {
+    var pa = headA;
+    var pb = headB;
+
+    if (!pa || !pb) {
+        return null;
+    }
+
+    while (pa && pb && pa !== pb) {
+        pa = pa.next;
+        pb = pb.next;
+        if (pa === pb) {
+           return pa ;
+        }
+
+        if (!pa) {
+            pa = headB;
+        }
+
+        if (!pb) {
+            pb = headA;
+        }
+    }
+
+    return pa;
+};

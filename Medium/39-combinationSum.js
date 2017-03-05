@@ -6,11 +6,12 @@
  * @return {number[][]}
  */
 var combinationSum = function(candidates, target) {
+    var result = [];
+    var results = [];
+    
     candidates.sort(function(a, b) {
       return a - b;
     });
-    var result = [];
-    var results = [];
     combinationSumHelper(candidates, target, results, result, 0);
     return results;
 };

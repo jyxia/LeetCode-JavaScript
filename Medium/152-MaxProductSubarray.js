@@ -21,3 +21,18 @@ var maxProduct = function(nums) {
 
     return result;
 };
+
+// 2nd try
+var maxProduct = function(nums) {
+    var min = [nums[0]];
+    var max = [nums[0]];
+    var maxProduct = nums[0];
+
+    for (var i = 1; i < nums.length; i++) {
+        min.push(Math.min(nums[i], min[i - 1] * nums[i], max[i - 1] * nums[i]));
+        max.push(Math.max(nums[i], min[i - 1] * nums[i], max[i - 1] * nums[i]));
+        maxProduct = Math.max(maxProduct, max[i]);
+    }
+
+    return maxProduct;
+};
