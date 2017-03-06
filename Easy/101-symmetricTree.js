@@ -33,6 +33,21 @@ var helper = function(left, right) {
     return false;
 }
 
+// third try
+var helper = function(left, right) {
+    if (!left && !right) {
+        return true;
+    } else if (!left || !right) {
+        return false;
+    } else {
+        if (left.val === right.val) {
+            return isSymmetricHelper(left.left, right.right) && isSymmetricHelper(left.right, right.left);
+        } else {
+            return false;
+        }
+    }
+}
+
 // iterative
 var isSymmetric = function(root) {
     if (!root) return true;

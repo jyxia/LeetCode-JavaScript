@@ -94,7 +94,7 @@ var getIntersectionNode = function(headA, headB) {
         pa = pa.next;
         pb = pb.next;
         if (pa === pb) {
-           return pa ;
+           return pa;
         }
 
         if (!pa) {

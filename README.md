@@ -165,6 +165,7 @@
 * [221. Maximal Square](https://leetcode.com/problems/maximal-square/) - [Solution](./Medium/221-maximalSquare.js)
 * [229. Majority Element II](https://leetcode.com/problems/majority-element-ii/) - [Solution](./Medium/229-majorityElementII.js)
 * [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) - [Solution](./Medium/230-kthSmallestElementinBST.js)
+* [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) - [Solution](./Medium/236-lcaBinaryTree.js)
 * [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - [Solution](./Medium/238-productExceptSelf.js)
 * [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) - [Solution](./Medium/240-Search2DMatrixII.js)
 * [241. Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/) - [Solution](./Medium/241-differentWaysAddParentheses.js)
