@@ -20,7 +20,7 @@ function ShortestWordDist(words) {
 ShortestWordDist.prototype.shortest = function(word1, word2) {
   var list1 = this.hashMap[word1];
   var list2 = this.hashMap[word2];
-  var dist = Math.pow(2, 32) - 1;
+  var dist = Number.MAX_VALUE;
 
   for (var i = 0, j = 0; i < list1.length && j < list2.length;) {
     var index1 = list1[i];

@@ -3,7 +3,7 @@
  * @return {string}
  */
 
-// my own solution 
+// my own solution
 var numberToWords = function(num) {
     var dict = { 1: 'One', 2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five',
         6: 'Six', 7: 'Seven', 8: 'Eight', 9: 'Nine', 10: 'Ten',
@@ -85,4 +85,45 @@ var twoDigits = function twoDigits(num, dict) {
     }
 
     return str;
+}
+
+
+// a more concise way
+var zeroToTwenty = ['', 'One', 'Two', 'Three', 'Four', 'Five',
+     'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve',
+     'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen',
+     'Eighteen', 'Nineteen', 'Twenty'];
+var twentyToNinety = ['', 'Twenty', 'Thirty', 'Forty', 'Fifty', 'Sixty', 'Seventy', 'Eighty', 'Ninety'];
+var thousand = ['', 'Thousand', 'Million', 'Billion'];
+
+var numberToWords = function(num) {
+    var str = '';
+
+    if (num === 0) {
+        return 'Zero';
+    }
+
+    for (var i = 0; num > 0; i++) {
+        var h = num % 1000;
+        if (h > 0) { // in case 1,000,000
+            str = helper(h) + thousand[i] + ' ' + str;
+        }
+        num = Math.floor(num / 1000);
+    }
+
+    return str.trim();
+};
+
+function helper(num) {
+    if (num === 0) {
+        return '';
+    } else if (num <= 20) {
+        return zeroToTwenty[num] + ' ';
+    } else if (num < 100) {
+        var h = Math.floor(num / 10);
+        return twentyToNinety[h - 1] + ' ' + helper(num % 10);
+    } else {
+        var h = Math.floor(num / 100);
+        return zeroToTwenty[h] + ' Hundred ' + helper(num % 100);
+    }
 }

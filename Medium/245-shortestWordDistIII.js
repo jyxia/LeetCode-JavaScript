@@ -6,7 +6,7 @@
 function shortestWordDist(words, word1, word2) {
   var index1 = -1;
   var index2 = -1;
-  var dist = Math.pow(2, 32) - 1; // for some reason in JavaScript, manually set max.
+  var dist = Number.MAX_VALUE; // for some reason in JavaScript, manually set max.
 
   words.forEach(function(word, index) {
     if (word1 === word2) {
