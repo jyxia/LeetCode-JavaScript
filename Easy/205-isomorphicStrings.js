@@ -38,3 +38,20 @@ Object.prototype.getKeyByValue = function(value) {
       }
   }
 };
+
+// a better solution, use array
+var isIsomorphic = function(s, t) {
+    var arrS = [],
+        arrT = [];
+
+    for (var i = 0; i < s.length; i++) {
+        if (arrS[s.charCodeAt(i)] !== arrT[t.charCodeAt(i)]) {
+            return false;
+        }
+
+        arrS[s.charCodeAt(i)] = i;
+        arrT[t.charCodeAt(i)] = i;
+    }
+
+    return true;
+};
