@@ -196,6 +196,7 @@
 * [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) -  [Solution](./Hard/45-jumpGameII.js)
 * [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) -  [Solution](./Hard/56-MergeIntervals.js)
 * [57. Insert Interval](https://leetcode.com/problems/insert-interval/) -  [Solution](./Hard/57-insertInterval.js)
+* [65. Valid Number](https://leetcode.com/problems/valid-number/) -  [Solution](./Hard/65-validNumber.js)
 * [115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) -  [Solution](./Hard/115-distinctSubsequences.js)
 * [117. Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) -  [Solution](./Hard/117-populatingNextRightII.js)
 * [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) -  [Solution](./Hard/123-bestTimeBuySellStockIII.js)
