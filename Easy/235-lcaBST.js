@@ -23,7 +23,7 @@ var lowestCommonAncestor = function(root, p, q) {
   return root;
 };
 
-// or like this?
+// or like this? ✅
 var lowestCommonAncestor = function(root, p, q) {
   if (p.val > root.val && q.val > root.val) {
     return lowestCommonAncestor(root.right, p, q);
@@ -31,5 +31,4 @@ var lowestCommonAncestor = function(root, p, q) {
     return lowestCommonAncestor(root.left, p, q);
   }
   return root;
-
 };
