@@ -5,7 +5,7 @@
 * If you find something wrong or the complexity is not good, you are very welcome to contribute your better solutions.
 
 ##### Easy
-* [7. Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/) - [Solution](./Easy/7-reverseInteger.js)
+* [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/) - [Solution](./Easy/7-reverseInteger.js)
 * [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) - [Solution](./Easy/8-stringToInteger.js)
 * [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/) - [Solution](./Easy/9-palindromeNumber.js)
 * [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) - [Solution](./Easy/13-romanToInteger.js)
